@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>M</span>Bloosom</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="services">Scope </a></li>
+            <li><a href="#projects" data-after="Projects">Milestones </a></li>
+			      <li><a href="#Documents" data-after="Documents">Documents</a></li>
+			      <!-- <li><a href="#Presentations" data-after="Presentations">Presentations</a></li> -->
+            <li><a href="#about" data-after="About">About Us</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>Welcome to <span></span></h1>
+        <h1>Mango-Bloosom <span></span></h1>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Research<span>Project</span>Scope</h1>
+        
+      </div>
+	  
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Literature Survey</h2>
+          <p>
+            <br/>
+            Predicting mango variety using image processing is a relatively recent development in the field of agricultural technology. 
+            Convolutional Neural Networks (CNNs) have proven to be particularly effective for fruit classification due to their ability 
+            to capture intricate patterns and features in images. Studies such as the work by Shrivastava et al. (2020) have 
+            demonstrated the use of CNNs for identifying different mango varieties with high accuracy, showing that deep learning 
+            models can successfully differentiate between varieties based on visual characteristics.
+            <br/><br/>
+            Leaf disease identification using image processing is a well-established area of research, with CNNs being widely employed 
+            due to their superior performance in image recognition tasks. The techniques used have evolved significantly, moving from 
+            basic image preprocessing and feature extraction methods to more sophisticated deep learning models. For example, 
+            Sladojevic et al. (2016) have illustrated the effectiveness of CNNs in identifying multiple plant diseases with high 
+            precision, highlighting the potential for these models to be applied to various crops, including mangoes.
+            <br/><br/>
+            While significant progress has been made in the identification of leaf diseases, the automated recommendation of prevention 
+            strategies remains less explored. Most studies focus on the identification of diseases, creating a gap in the research 
+            related to actionable recommendations for disease management. Research by Picon et al. (2019) discusses the potential of 
+            integrating image processing with expert systems to recommend treatments, suggesting that further development is needed to 
+            bridge the gap between disease identification and prevention strategies. This integration could provide a comprehensive 
+            solution for managing plant health in mango orchards.
+            <br/><br/>
+            The use of image processing for predicting ripeness and grading of mangoes is gaining traction as a practical application 
+            of CNNs. These models can analyze visual cues such as color, texture, and shape to determine the ripeness of the fruit. 
+            Research by Sarker et al. (2019) has shown that CNN-based models can grade fruits with substantial accuracy, indicating 
+            their potential for practical use in sorting and grading processes. Such advancements can significantly aid in ensuring the 
+            quality and market value of mango produce by categorizing them into different grades based on their ripeness.
+            <br/><br/>
+            Mango Bloosom Application cultivation covers a broad spectrum, from variety prediction and disease identification to 
+            ripeness prediction and grading. However, there remains a notable research gap in the integration of these tasks into a 
+            single, cohesive system, and in the development of automated prevention strategy recommendations post disease identification. 
+            Addressing these gaps can lead to the development of comprehensive solutions that enhance the management and optimization of 
+            mango orchards. By leveraging the capabilities of CNNs and deep learning, it is possible to create a system that not only 
+            identifies issues but also provides actionable recommendations, ultimately benefiting mango producers through improved 
+            efficiency and productivity.
+            <br/><br/><br/>
+          </p>
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Research Gap</h2>
+          <br>
+          <h5>Research Gap for Domain 1: Integrated Systems</h5> 
+<p>
+  Current research largely focuses on individual tasks such as variety prediction, disease identification, and ripeness grading. Few 
+  studies have attempted to integrate these functionalities into a single comprehensive system. An integrated approach would streamline 
+  orchard management by providing a unified platform for identifying mango varieties, diagnosing diseases, and grading fruit ripeness, 
+  enhancing overall efficiency and usability for farmers.
+</p>
+<br>
+<h5>Research Gap for Domain 2: Disease Prevention Recommendations </h5>
+<p>
+  While disease identification using CNNs is well-researched, there is a notable gap in providing actionable prevention strategies post 
+  diagnosis. Existing studies primarily concentrate on the accurate detection of diseases, but they often stop short of suggesting 
+  practical measures to mitigate these issues. Developing systems that not only identify diseases but also recommend specific, 
+  evidence-based prevention strategies would be invaluable for effective orchard management and disease control.
+</p> 
+ 
+<br> 
+<h5>Research Gap for Domain 3: Real-Time Application </h5>
+<p>
+  Implementing these advanced image processing techniques in real-time scenarios presents significant challenges. Real-time application 
+  requires robust computational resources and efficient algorithms capable of operating under varying environmental conditions. The 
+  current state of research has yet to fully address these practical limitations, which include handling large datasets, ensuring fast 
+  processing times, and maintaining accuracy in diverse and dynamic orchard environments. Overcoming these challenges is crucial for 
+  creating practical, on-the-ground solutions that can be widely adopted by mango farmers.
+</p>
+
+<br>
+<h5>Research Gap Overall Summary:  </h5>
+<p>
+  Addressing these research gaps involves developing integrated systems that combine variety prediction, disease identification, and 
+  ripeness grading, enhancing the functionality and practicality of these technologies. Additionally, incorporating disease prevention 
+  recommendations and optimizing algorithms for real-time application are essential steps toward making these advancements more 
+  accessible and beneficial for the agricultural sector.
+</p>
+<br/><br/><br/>
+
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2> Research Problem</h2>
+		  <br>
+          <p>Mango orchards face numerous challenges that impact productivity and quality, including the accurate identification of 
+            mango varieties, timely detection and management of leaf diseases, and effective grading of mango ripeness. Current 
+            technologies often address these issues in isolation, lacking a cohesive approach that integrates all aspects of orchard 
+            management into a single system. This fragmentation results in inefficiencies and missed opportunities for optimizing 
+            production and quality.
+            <br/><br/>
+          </p>
+          <h5>The Need for Integration </h5>
+          <p>
+            The identification of mango varieties is crucial for various agricultural and commercial purposes. Different varieties have 
+            unique growth requirements, market values, and disease susceptibilities. Accurate and timely identification can aid in 
+            better management practices and marketing strategies. While CNNs have shown high accuracy in fruit classification, their 
+            application remains limited to standalone tasks without integration into broader management systems.
+          </p>
+          <br/><br/>
+          <h5>Disease Identification and Management </h5>
+          <p>
+            Leaf diseases significantly affect mango yield and quality. Early detection and management are vital to prevent widespread 
+            damage. Although CNNs have proven effective in identifying plant diseases, the transition from identification to actionable 
+            prevention strategies is underdeveloped. Existing research often stops at detection, leaving a gap in the practical 
+            application of these findings to suggest and implement preventive measures. This gap needs addressing to provide a complete 
+            solution that encompasses both detection and management.
+          </p>
+          <br/><br/>
+          <h5>Ripeness Prediction and Grading </h5>
+          <p>
+            Ripeness prediction and grading are essential for ensuring mangoes meet market standards and consumer expectations. Proper 
+            grading based on ripeness can maximize market value and reduce post-harvest losses. CNNs can analyze visual cues such as 
+            color and texture to determine ripeness stages, but their application is often restricted to controlled environments and 
+            not integrated with other orchard management tasks.
+          </p>
+          <br/><br/>
+          <h5>Real-Time Application Challenges </h5>
+          <p>
+            Implementing these technologies in real-time scenarios presents additional challenges. Mango orchards are dynamic 
+            environments where lighting, weather, and other conditions vary, complicating the deployment of image processing systems. 
+            Real-time application requires robust computational resources and efficient algorithms capable of maintaining accuracy and 
+            speed under diverse conditions. Overcoming these practical limitations is crucial for the widespread adoption of these 
+            technologies in real-world settings.
+          </p>
+          <br/><br/>
+          <h5>Comprehensive Solution </h5>
+          <p>
+            The research problem, therefore, is to develop an integrated image processing system using CNNs that can simultaneously 
+            predict mango varieties, identify leaf diseases, recommend preventive strategies, and grade mango ripeness. Such a system 
+            would streamline orchard management by providing a unified platform for all these tasks, enhancing efficiency and 
+            productivity. The system should be capable of real-time operation, adapting to the dynamic conditions of mango orchards. 
+            Addressing these research gaps will result in a comprehensive tool that supports farmers in making informed decisions, 
+            ultimately leading to better management practices, improved yield, and higher-quality mangoes.
+          </p>
+          <br/><br/>
+</p>
+ 
+
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2> Objectives</h2>
+          <p>
+		 <h5> Main Objective:</h5>
+     <p>
+      1. Identify Fresh Mangoes and Categorize Based on Usage: Develop a system to classify mangoes according to their optimal use, 
+      enhancing quality and market value.
+      2. Monitor and Control Spreadable Mango Diseases: Implement techniques to detect and manage diseases, preventing widespread 
+      outbreaks in orchards. 
+      <br><br>
+    </p>
+    <h5>Sub Objective 1: Predict Mango Cultivation Variety: </h5>
+    <p>
+      Utilize Convolutional Neural Networks (CNNs) to classify mango varieties based on fruit images. This will help in managing 
+      different varieties effectively and optimizing cultivation practices.
+    <br><br>
+    </p>
+    <h5>Sub Objective 2: Identify Mango Leaf Diseases </h5>
+    <p>
+      Develop a CNN model capable of detecting common mango leaf diseases with high accuracy. Early detection will enable timely 
+      interventions and reduce crop loss.
+    <br><br>
+    </p>
+    <h5>Sub Objective 3: Recommend Disease Prevention Strategies </h5>
+    <p>
+      Integrate an expert system with the disease identification model to provide actionable prevention measures. This will assist 
+      farmers in implementing effective disease management practices.
+    <br><br>
+  </p>
+  <h5>Sub Objective 4: Identify Mango Fruit Diseases </h5><p>
+    Create a CNN model specifically designed to detect diseases affecting mango fruits. This will ensure the health and quality of the 
+    harvested produce.
+  <br><br>
+  </p>
+  <h5>Sub Objective 5: Recommend Fruit Disease Prevention Strategies </h5>
+  <p>
+    Extend the expert system to offer preventive measures for fruit diseases, complementing the leaf disease management strategies and 
+    ensuring comprehensive protection.
+  <br><br>
+  </p>
+  <h5>Sub Objective 6: Predict Mango Ripeness and Grade </h5>
+  <p>
+    Implement a CNN-based model to assess the ripeness of mangoes. The model will classify the fruits into grades A, B, and C based on 
+    ripeness, aiding in quality control and market categorization.
+  <br><br>
+  </p>
+  <br><br>
+<p>These research sub-objectives collectively represent a holistic and transformative approach to Mango cultivation in Sri Lanka. By automating disease detection, improving agricultural practices, and fostering orchard maintainance, this study aspires to revitalize the region's Mango farming sector. The research endeavors to fortify food security, bolster the economic resilience of farmers, and usher in a more sustainable era of agriculture, thereby fostering long-term prosperity for both communities and the environment. </p>
+        </div>
+				
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2> Methodology</h2>  
+          <br><br>
+          </p>
+          <h5>Data Collection and Dataset Preparation</h5>
+          <p>
+            To enhance the accuracy of the model, a dataset consisting of nearly 1000 images was collected from mango orchards in 
+            Munthalama and Jaffna. Additionally, 2000 images were sourced from Kaggle. Subsequently, the dataset was filtered to remove 
+            unclear images. To facilitate disease identification, the dataset was organized into five folders, each corresponding 
+            to a specific disease. The images were then placed into the respective folders based on the type of disease they depicted. 
+            Field visits were conducted to gather data and information for research. One visit was made to Prof. Nishantha Giguruwa's 
+            mango orchard in Mundalama, while another visit was undertaken to a mango orchard in the Jaffna area. These visits provided 
+            valuable insights and data for the study. Furthermore, the collection of diseased fruit images and information on disease 
+            prevention strategies was carried out under the supervision of Prof. Nishantha Giguruwa and Suni Galearachchi, a Consultant 
+            Agronomist. Their expertise and guidance significantly contributed to the success of this research. These efforts 
+            collectively contributed to the development of a robust dataset for training and testing the CNN models, enabling accurate 
+            identification and classification of mango fruit diseases.
+            <br><br>
+          </p>
+          <h5>Data Augmentation </h5>
+          <p>
+            Image augmentation is a crucial technique used to expand datasets artificially, especially when working with limited data. 
+            This approach plays a significant role in enhancing the robustness and generalization capability of machine learning models. 
+            In our study, we employed the image augmenter provided by the Keras library to augment our dataset. By manipulating various 
+            augmentation parameters, we were able to generate additional images from a single image, effectively increasing the size of 
+            our dataset. Our augmentation process involved setting several parameters to create diverse variations of the original images.
+            <br><br>
+          </p>
+          <h5>Model Development </h5>
+          <p>
+            Convolutional Neural Networks (CNNs), renowned for their efficacy in image classification tasks, were selected as the 
+            primary model for mango cultivar classification. These deep learning algorithms were adapted to accommodate the specific 
+            nuances and characteristics of mango cultivars, ensuring optimal classification outcomes. A suitable CNN architecture was 
+            selected based on considerations such as computational efficiency, accuracy, and classification performance. The CNN model 
+            underwent training using the augmented dataset, enabling accurate identification and differentiation of mango cultivars 
+            based on their unique attributes. By implementing this methodology, the research aims to develop a robust system capable of 
+            accurately classifying and distinguishing various mango cultivars, thereby facilitating informed decision-making in mango 
+            cultivation and management practices.
+            <br><br>
+          </p>	
+			</p>
+        </div>
+		
+        <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Technologies Used</h2>
+          <p>PyCharm</p>
+		  <p>Fast API</p>
+		  <p>Flask API</p>
+		  <p>Machine Learning</p>
+		  <p>Python</p>
+        </div>
+		
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+  
+  <!-- Project milestone Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Research <span>Project</span> Milestone</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project Proposal</h1>
+            
+            <p>Proposal presentation and the proposal report submission.</p>
+                  <p>Marks Allocated : 12%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Progress Presentation-1</h1>
+            
+            <p>50% progress presentation of the research project.</p>
+                  <p>Marks Allocated : 15%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/presentation-software-A.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1> Progress Presentation-2</h1>
+            
+            <p>90% progress presentation of the research project.</p>
+                  <p>Marks Allocated : 18%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/presentation-example-graphic.jpg" alt="img">
+          </div>
+        </div>
+		<div class="project-item">
+          <div class="project-info">
+            <h1>Demonstration</h1>
+            <p>Submission and presentation of the research poster. </p>
+                  <p>Marks Allocated : 14%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/systemsprocessess_wp.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1> Final Assessment</h1>
+            
+            <p>Submission of final reports and the final presentation of the research. </p>
+                  <p>Marks Allocated : 25%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/Historical-Research-Design.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Viva</h1>
+            
+            <p>Final viva of the research project with an external panel member. </p>
+                  <p>Marks Allocated : 10%</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/images.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+  
+   <!-- Document Section -->
+  <section id="Documents">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Doc<span>ume</span>nts</h1>
+        <div class="box">
+		<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5> Project charter </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/140_bUiNI_p0VrIiAmU8YNCdQLMXyXh8I/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div>
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5> Status Document 1 </h5>
+				<div class="pra">
+					<p>IT20279066</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1Ta90gMemIyOK7dPhFHDfymDNixKoTtR_/view?usp=sharing">View</a>
+					</p>
+					<p>IT20650698</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1rZRmJoUNZnp1ArmJtb6Z1bAzj30QsSJZ/view?usp=sharing">View</a>
+					</p>
+					<p>IT20271282</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1zSa04k1-GPPMJn7D5iZKaAzkk4zKidUx/view?usp=sharing">View</a>
+					</p>
+					<p>IT20125370</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1rWkrbbPA8sdRnM0jqH7ct8OeGbZvsT29/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+			<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5> Proposal Document </h5>
+				<div class="pra">
+					<p>IT20279066</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1ahV39ntfJ-xu4PKhQ2vmNpLYmWF3zSGP/view?usp=sharing">View</a>
+					</p>
+					<p>IT20650698</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1yMZiQ6l6MSzHoFIWiOVABwRitAgU_rNY/view?usp=sharing">View</a>
+					</p>
+					<p>IT20271282</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1XCvBeH9Jozn7qRawwwQNOurcd7qv6zwS/view?usp=sharing">View</a>
+					</p>
+					<p>IT20125370</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1rWjHOz-YGLdqpOuQZcvlf2bRZ5NEwCQL/view?usp=sharing">View</a>
+					</p>
+				</div>
+				
+			</div></div>
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Status Document 2</h5>
+				<div class="pra">
+					<p>IT20279066</p>
+					<p style="text-align: center;">
+						
+						<a class="button" href="https://drive.google.com/file/d/1Y09RmIV_O_rgBeOv7ZIQfjJtbu7FEgPO/view?usp=sharing">View</a>
+					</p>
+					<p>IT20650698</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/111AvzRp9V6bnLiPe_Wo42-7sRUuIvg6J/view?usp=sharing">View</a>
+					</p>
+					<p>IT20271282</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/176ko6D1MLQciM0i9B2vd_I6KECjEI2tI/view?usp=sharing">View</a>
+						
+					</p>
+					<p>IT20125370</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1d5EAiVp-0f2oJlWfAn6QSIB20QzVlF3x/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+					<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Research Logbook</h5>
+				<div class="pra">
+					<p>IT20279066</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/drive/folders/1fP94KJP9gFD1NE21J9GLPOiL9wM3Ynag?usp=sharing">View</a>
+					</p>
+					<p>IT20650698</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/drive/folders/1fP94KJP9gFD1NE21J9GLPOiL9wM3Ynag?usp=sharing">View</a>
+					</p>
+					<p>IT20271282</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/drive/folders/1fP94KJP9gFD1NE21J9GLPOiL9wM3Ynag?usp=sharing">View</a>
+					</p>
+					<p>IT20125370</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/drive/folders/1fP94KJP9gFD1NE21J9GLPOiL9wM3Ynag?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div>
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5> Final Document </h5>
+				<div class="pra">
+					<p>Group Report</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/11FuM1Q4m3VcTd33F7oBuYFugN-TG4Iie/view?usp=sharing">View</a>
+					</p>
+					<p>IT20279066</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/11FuM1Q4m3VcTd33F7oBuYFugN-TG4Iie/view?usp=sharing">View</a>
+					</p>
+					<p>IT20650698</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/11FuM1Q4m3VcTd33F7oBuYFugN-TG4Iie/view?usp=sharing">View</a>
+					</p>
+					<p>IT20271282</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/11FuM1Q4m3VcTd33F7oBuYFugN-TG4Iie/view?usp=sharing">View</a>
+					</p>
+					<p>IT20125370</p>
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/11FuM1Q4m3VcTd33F7oBuYFugN-TG4Iie/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+      </div>
+	  
+    </div>
+  </section>
+  <!-- End documents Section -->
+  
+     <!-- Presentation Section -->
+  <section id="Presentations">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Pres<span>entat</span>ions</h1>
+        <div class="box">
+		<div class="row">
+        <div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5> Proposal presentation </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://docs.google.com/presentation/d/1HIWXMRqQCP41nPhU6IM4kX8TNlvvDeCw/edit?usp=sharing&ouid=103889615265767646788&rtpof=true&sd=true">View</a>
+					</p>
+				</div>
+			</div></div>
+			
+			<div class="col-sm-6 col-md-3">
+			</div>
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Progress Presentation-2 </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1N9zszR0RVdjC24M6D9I7JYBlFDPOpHmy/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+			
+        <div class="col-sm-6 col-md-3">
+			
+			
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5> Progress presentation-1 </h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1vmyl5Spd47cEZuxbUjGB2TBZHsQBUuCU/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div>
+			
+			<div class="col-sm-6 col-md-3">
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Final presentation</h5>
+				<div class="pra">
+					<br><br><br><br><br><br>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://drive.google.com/file/d/1v-YXF4peC_B3T2yjOQczeNblTAePHBdO/view?usp=sharing">View</a>
+					</p>
+				</div>
+			</div></div></div>
+			
+      </div>
+		  
+		  
+      </div>
+	  
+    </div>
+  </section>
+  <!-- End documents Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Dr_Santha_Yapa.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Supervisor</span></h1><br>
+        <h2>Dr. Shanta Rajapaksha Yapa</h2>
+          <p>Director - SLIIT Innovate | Senior Academic Fellow, FACULTY OF BUSINESS | INFORMATION MANAGEMENT </p>
+          <p>PhD (Colombo), FBCS (UK), MIET (UK), MBA (Sri J.), MSc (Moratuwa) , NDT Mech Eng., CMILT (SL), CMSLIM, MCS (SL), MIEEE </p>  
+        
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Prof__Samantha_Telijjagoda.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About<span>Co-Supervisor</span></h1><br>
+        <h2>Prof. Samantha Thelijjagoda</h2>
+          <p>Pro Vice-Chancellor (Research & International) at Sri Lanka Institute of Information Technology</p>
+          <p>professor in Information Systems Engineering</p>
+          <p>Ph.D. in Information Systems Engineering, Gifu University, Japan</p>       
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Gallage_V_C.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Leader</span></h1><br>
+        <h2>Gallage V.C</h2>
+        <p>IT20279066 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Software Engineering </p>
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Rohana_Samaraweera.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Member 1</span></h1><br>
+        <h2>Samaraweera S.M.R</h2>
+        <p>IT20650698 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Information Technology </p>
+        
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Devmini_Anthony.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Member 2</span></h1><br>
+        <h2>Anthony C.D.K</h2>
+        <p>IT20271282 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Information Technology </p>
+        
+      </div>
+    </div>
+	
+	<div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Sharmelan_G.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Member 3</span></h1><br>
+        <h2>Sharmelan G</h2>
+        <p>IT20125370 </p>
+		<p>Bsc (Hons) Degree In Information Technology Specialized In Information Technology </p>
+        
+      </div>
+    </div>
+	
+	
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>Information</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+94 77 138 0242</h2>
+            <h2>+94 76 363 5560</h2>
+			      <h2>+94 77 599 9795</h2>
+            <h2>+94 71 567 3387</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>it20279066@my.sliit.lk</h2>
+            <h2>it20650698@my.sliit.lk</h2>
+			      <h2>it20271282@my.sliit.lk</h2>
+            <h2>it20125370@my.sliit.lk</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>SLIIT Malabe Campus, New Kandy Rd, Malabe 10115</h2>
+			      <h2>SLIIT Malabe Campus, New Kandy Rd, Malabe 10115</h2>
+			      <h2>SLIIT Malabe Campus, New Kandy Rd, Malabe 10115</h2>
+			      <h2>SLIIT Malabe Campus, New Kandy Rd, Malabe 10115</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>M</span>ango <span>B</span>loosom</h1>
+      </div>
+      <h2>Research Project Website assessment</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/?size=100&id=67673&format=png&color=000000" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 mangobloosom. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  
+ 
+</body>
+
+</html>
